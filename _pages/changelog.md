@@ -5,7 +5,7 @@ include_in_header: true
 ---
 
 # Changelog
-Aquí encontrarás todas las novedades de cada versión de la app. Si quieres obtener acceso por anticipado (beta), solicítalo [aquí] (https://beta.ngldvd.com)
+Aquí encontrarás todas las novedades de cada versión de la app. Si quieres obtener acceso por anticipado (beta), solicítalo [aquí](https://beta.ngldvd.com).
 
 <br>
 
