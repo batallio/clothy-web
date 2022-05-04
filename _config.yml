@@ -5,7 +5,7 @@ page_title                                :                                     
 ios_app_id                                :                                 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : mx                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
-appstore_link                             : https://apps.ngldvd.com                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://test.clothy.app                                          # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
 playstore_link                            :                                           # Enter Google Play Store URL.
 presskit_download_link                    :                                           # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).
                                                                                       # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
@@ -22,7 +22,7 @@ enable_smart_app_banner                   : false                               
 # Information About Yourself
 your_name                                 : Ángel David Ramírez Batalla
 your_link                                 : https://ngldvd.com
-your_city                                 : Querétaro
+your_city                                 : Universidad Anáhuac Querétaro
 email_address                             : contact@ngldvd.com
 facebook_username                         :                                           
 instagram_username                        :
@@ -35,12 +35,29 @@ youtube_username                          :
 # Feature List                            Edit, add or remove features to be presented.
 features                                  :
 
-  - title                                 : Próximamente
-    description                           : Clothy llegará a revolucionar tu clóset.
-    fontawesome_icon_name                 : shirt
+  - title                                 : ¿Qué talla compro?
+    description                           : Clothy es capaz de recomendarte la talla adecuada dependiendo de la marca.
+    fontawesome_icon_name                 : ruler
+    
+  - title                                 : ¿Más exactitud?
+    description                           : No te preocupes, crearemos un modelo 3D de ti y obtendremos las tallas exactamente a tu medida. Todo gracias a la fotogrametría.
+    fontawesome_icon_name                 : person-circle-check
 
+  - title                                 : ¿No sabes que ponerte?
+    description                           : Clothy te recomendará ropa limpia y que no haya sido utilizada en los últimos 7 días.
+    fontawesome_icon_name                 : t-shirt
 
+  - title                                 : Hora de lavar
+    description                           : Clothy te recomendará cuando es el momento adecuado de lavar tu ropa, así ahorrando agua.
+    fontawesome_icon_name                 : soap
 
+  - title                                 : Combina tu ícono con tu estilo
+    description                           : Cambia el ícono de la app al que más te guste.
+    fontawesome_icon_name                 : mobile-button
+
+  - title                                 : Modo oscuro
+    description                           : Adaptada para el lado oscuro.
+    fontawesome_icon_name                 : moon
 
 # Theme Settings
 topbar_color                              : "#000000"
